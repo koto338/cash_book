@@ -3,7 +3,7 @@ def get_carry_over
   puts '前月残高を入力してください。'
   carry_over = gets.chomp
 
-  while carry_over.match?(/[0-9]/) == false
+  while carry_over.match?(/^[1-9][0-9]*$/) == false
     puts '前月残高を正しい形式で入力してください。'
     carry_over = gets.chomp
   end
@@ -12,10 +12,10 @@ end
 
 def get_date
 #   ユーザーが入力した日付を受け取る
-  puts '日付を入力してください。'
+  puts '日付を入力してください。(例 1\1)'
   date = gets.chomp
 
-  while date.match?(/[0-9]/) == false
+  while date.match?(/^([1-9]|1[0-2])\/([1-9]|1[0-9]|2[0-9]|3[0-1])$/) == false
     puts '日付を正しい形式で入力してください。'
     date = gets.chomp
   end
@@ -53,7 +53,7 @@ def get_code
   puts
   code = gets.to_s.chomp
 
-  while code.match?(/[1-10]/) == false
+  while code.match?(/^[1-9][0]*$/) == false
     puts '科目コードを正しい形式で入力してください。'
     code = gets.to_s.chomp
   end
@@ -103,8 +103,9 @@ def get_amount
   puts '金額を入力してください'
   amount = gets.chomp
 
-  while amount.match?(/[0-9]*/) == false
+  while amount.match?(/^[1-9][0-9]*$/) == false
     puts '金額を正しい形式で入力してください。'
+    amount = gets.chomp
   end
   amount
 end

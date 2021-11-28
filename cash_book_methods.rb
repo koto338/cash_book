@@ -53,7 +53,7 @@ def get_code
   puts
   code = gets.to_s.chomp
 
-  while code.match?(/[1-8]/) == false
+  while code.match?(/[1-10]/) == false
     puts '科目コードを正しい形式で入力してください。'
     code = gets.to_s.chomp
   end

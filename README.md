@@ -13,4 +13,5 @@
 - cash.csvを表示してプログラムを終了する
 - 
 cash.csv
-file:///C:/Users/onori/Desktop/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20(49).png
+![i](https://user-images.githubusercontent.com/74661026/150636846-45be179e-de73-4837-a3fd-a8614660a5e3.png)
+

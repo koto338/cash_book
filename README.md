@@ -11,3 +11,6 @@
 - 残高を計算する
 - cash.csvの各項目に書き込む(科目別は支払のみ)
 - cash.csvを表示してプログラムを終了する
+- 
+cash.csv
+file:///C:/Users/onori/Desktop/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20(49).png

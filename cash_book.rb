@@ -92,7 +92,7 @@ File.open(filepath, "a+") do |file|
       journal_6111 = pay
     elsif code == 6222
       journal_6222 = pay
-    elsif code == 6444
+    elsif code == 6
       journal_6444 = pay
     elsif code == 6555
       journal_6555 = pay

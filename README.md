@@ -11,7 +11,7 @@
 - 残高を計算する
 - cash.csvの各項目に書き込む(科目別は支払のみ)
 - cash.csvを表示してプログラムを終了する
-- 
+ 
 cash.csv
 ![i](https://user-images.githubusercontent.com/74661026/150636846-45be179e-de73-4837-a3fd-a8614660a5e3.png)
 
